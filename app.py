@@ -1,3 +1,18 @@
+import pandas as pd
+import streamlit as st
+
+
+st.title('Passing Mark Checker')
+
+st.sidebar.write("""
+A demo of passing mark checker algorithm
+""")
+
+st.sidebar.write ("For more info, please contact:")
+
+st.sidebar.write("<a href='https://www.linkedin.com/in/aizat-hizami-b57345b9/'>Aizat Hizami </a>", unsafe_allow_html=True)
+
+
 y = 50 # minimum passing score
 
 while True:

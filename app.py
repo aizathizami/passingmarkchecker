@@ -8,12 +8,12 @@ readme = st.checkbox("readme")
 if readme:
 
     st.write("""
-        This is a mark checking demo. You may get the codes via [github](https://github.com/richieyuyongpoh/markchecking)
+        This is a mark checking demo. You may get the codes via [github](https://github.com/aizathizami/passingmarkchecker.git)
         """)
 
     st.write ("For more info, please contact:")
 
-    st.write("[Dr. Yong Poh Yu](https://www.linkedin.com/in/yong-poh-yu/)")
+    st.write("<a href='https://www.linkedin.com/in/aizat-hizami-b57345b9/'>Aizat Hizami </a>", unsafe_allow_html=True)
     
 
 st.write("Please enter your mark. To stop the algorithm, enter x .\n\n")
